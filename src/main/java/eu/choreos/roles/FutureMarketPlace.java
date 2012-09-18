@@ -2,16 +2,16 @@ package eu.choreos.roles;
 
 import java.util.List;
 
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
 import eu.choreos.contracts.Customer;
 import eu.choreos.model.AccountType;
 import eu.choreos.model.Order;
 import eu.choreos.vv.clientgenerator.Item;
 import eu.choreos.vv.clientgenerator.WSClient;
 import eu.choreos.ws.Services;
-import javax.jws.*;
-import javax.swing.JOptionPane;
 
-@SuppressWarnings("restriction")
 @WebService
 public class FutureMarketPlace implements Customer {
 	

@@ -6,7 +6,6 @@ import javax.jws.WebService;
 import eu.choreos.model.AccountType;
 import eu.choreos.model.Order;
 
-@SuppressWarnings("restriction")
 @WebService
 public interface Customer {
 

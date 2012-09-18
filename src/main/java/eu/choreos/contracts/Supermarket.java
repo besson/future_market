@@ -6,7 +6,6 @@ import javax.jws.WebResult;
 
 import eu.choreos.model.UserInfo;
 
-@SuppressWarnings("restriction")
 @WebService
 public interface Supermarket {
 

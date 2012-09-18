@@ -10,7 +10,6 @@ import eu.choreos.vv.clientgenerator.Item;
 import eu.choreos.vv.clientgenerator.WSClient;
 import eu.choreos.ws.Services;
 
-@SuppressWarnings("restriction")
 @WebService
 public class PaoDoFuturo implements Supermarket{
 	

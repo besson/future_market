@@ -11,7 +11,6 @@ import javax.jws.WebParam;
 import javax.jws.WebResult;
 import javax.jws.WebService;
 
-@SuppressWarnings("restriction")
 @WebService
 public class WSRegistry {
 	
@@ -35,6 +34,13 @@ public class WSRegistry {
 	public void setEndpoint(String key, @WebParam(name="endpoint")String value){
 		endpoints.remove(key);
 		endpoints.put(key, value);
+	}
+	
+	@WebMethod
+	public void removeEndpoint(String key){
+		if (endpoints.containsKey(key)) {
+			endpoints.remove(key);
+		}
 	}
 	
 	@WebMethod

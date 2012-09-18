@@ -7,7 +7,6 @@ import javax.jws.WebMethod;
 import javax.jws.WebResult;
 import javax.jws.WebService;
 
-@SuppressWarnings("restriction")
 @WebService
 public class SM2WS {
 	

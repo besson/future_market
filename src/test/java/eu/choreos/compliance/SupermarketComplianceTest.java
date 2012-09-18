@@ -41,7 +41,7 @@ public class SupermarketComplianceTest {
 		List<Service> supermarkets = futureMarket
 				.getServicesForRole("supermarket");
 		for (Service service : supermarkets) {
-			String wsdlURL = manager.completeURI(service.getUri());
+			String wsdlURL = ChoreographyManager.completeURI(service.getUri());
 			service.setUri(wsdlURL);
 			service.addRole(supermarket);
 
